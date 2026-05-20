@@ -31,7 +31,6 @@ Ecco alcuni dei miei progetti più significativi:
 Sono sempre aperto a nuove collaborazioni e opportunità. Puoi contattarmi tramite:
 
 - **Email**: Highkali13@proton.me
-- **LinkedIn**: https://www.linkedin.com/in/tuo-profilo-linkedin/
 - **Sito Web/Portfolio**: x-zdos.it
 
 ---

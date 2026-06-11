@@ -1,45 +1,54 @@
-# Ciao, sono high-cde 👋
+# high-cde
 
-### Sviluppatore AI & Architetto di Sistemi ZDOS | Innovatore Tecnologico
+### AI Developer, ZDOS Systems Architect and Automation Builder
 
-Benvenuto nel mio spazio GitHub! Sono un appassionato sviluppatore con un profondo interesse per l'**Intelligenza Artificiale** e l'**Architettura di Sistemi**. La mia missione è creare soluzioni innovative e spingere i confini della tecnologia, con un focus particolare sull'ecosistema **ZDOS**, che incarna la mia visione per sistemi robusti, efficienti e all'avanguardia.
+Benvenuto nel mio profilo GitHub. Mi occupo di **intelligenza artificiale applicata**, automazione, architetture modulari, cybersecurity difensiva e sperimentazioni Web3. Il mio lavoro ruota intorno all'ecosistema **ZDOS / Z-GENESIS**, una famiglia di repository progettata per esplorare sistemi digitali componibili, strumenti operativi e infrastrutture intelligenti.
 
-Sono sempre alla ricerca di nuove sfide e opportunità di collaborazione. Se sei interessato a progetti che combinano AI, sicurezza informatica e architetture complesse, sei nel posto giusto!
+## Focus tecnico
 
-## 🛠️ Competenze e Strumenti
+| Area | Cosa costruisco |
+|---|---|
+| AI e memoria | Sistemi di memoria, orchestrazione cognitiva e prototipi AGI-oriented. |
+| Automazione | CLI, bot, wrapper e workflow per ambienti Linux, Termux e cloud. |
+| Cybersecurity | Tooling difensivo, documentazione operativa e ambienti di test autorizzati. |
+| Web e Cloud | Dashboard, siti, layer CloudX e integrazioni JavaScript/TypeScript. |
+| Web3 | Sperimentazioni blockchain, wallet, token e bridge modulari. |
 
-Le mie competenze spaziano dallo sviluppo software all'ingegneria di sistemi, con una solida base in:
+## Progetti in evidenza
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,java,c,cpp,linux,docker,git,github,pytorch,tensorflow,aws,azure,gcp" />
-</p>
+| Repository | Ruolo |
+|---|---|
+| [ZDOS-MINI-KALI-AGI-WRAPPER](https://github.com/high-cde/ZDOS-MINI-KALI-AGI-WRAPPER) | Automazione di sicurezza e workflow Kali/Termux assistiti da AI. |
+| [ZDOS](https://github.com/high-cde/ZDOS) | Repository principale per moduli Python e documentazione ZDOS. |
+| [Z-GENESIS-OS](https://github.com/high-cde/Z-GENESIS-OS) | Sistema operativo concettuale modulare orientato a CloudX, ZDOS e Web3. |
+| [Z-GENESIS-CORTEX](https://github.com/high-cde/Z-GENESIS-CORTEX) | Motore cognitivo centrale per orchestrazione e routing dei moduli. |
+| [x-zdos.it](https://github.com/high-cde/x-zdos.it) | Presenza web e hub pubblico dell'ecosistema. |
 
-Sono particolarmente esperto in Python per l'AI, JavaScript per lo sviluppo web, e nella gestione di ambienti Linux e Docker per l'implementazione di sistemi scalabili.
-
-## 🚀 Progetti in Evidenza
-
-Ecco alcuni dei miei progetti più significativi, che riflettono la mia esperienza e la mia passione per l'innovazione. Questi progetti sono stati scelti per mostrare le mie capacità nell'AI, nella sicurezza e nell'architettura di sistemi:
-
--   **ZDOS-MINI-KALI-AGI-WRAPPER**: Un wrapper avanzato per l'integrazione di AGI (Artificial General Intelligence) con Kali Linux, progettato per migliorare la sicurezza e l'automazione intelligente all'interno dell'ecosistema ZDOS. Questo progetto dimostra la mia capacità di unire AI e sicurezza in soluzioni pratiche.
--   **memzdos**: Il sistema di memoria AI con il punteggio più alto mai benchmarkato, completamente gratuito e open source. Rappresenta un esempio della mia ricerca di soluzioni AI performanti e accessibili.
--   **xCLOUD-by-zdos**: Un fork evoluto del Bitrix24 Developer Hub, completamente rebrandizzato e ottimizzato per l'ecosistema CloudX × ZDOS. Include DSN Layer, Portal Fusion, Nexus, Terminal e pipeline enterprise-ready, evidenziando la mia esperienza nell'architettura cloud e nelle soluzioni enterprise.
--   **Z-GENESIS-OS**: Un sistema operativo robusto e sicuro, focalizzato sulla difesa cibernetica. Questo progetto sottolinea la mia dedizione alla creazione di infrastrutture sicure e resilienti.
-
-## 📊 Statistiche GitHub
-
-Uno sguardo alle mie attività e contributi su GitHub:
+## Stack
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=high-cde&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="Statistiche GitHub di high-cde" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=high-cde&theme=transparent&count_private=true&border_radius=10&locale=en" alt="Statistiche Streak di high-cde" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,kotlin,java,linux,bash,docker,git,github,nodejs,react,pytorch,tensorflow" alt="Stack tecnico" />
 </p>
 
-## 📫 Contattami
+## Principi di lavoro
 
-Sono sempre aperto a nuove collaborazioni, discussioni tecniche e opportunità professionali. Non esitare a contattarmi:
+> Costruisco repository leggibili, modulari e documentati, con attenzione a sicurezza operativa, automazione controllata e riuso dei componenti.
 
--   **Email**: Highkali13@proton.me
--   **Sito Web/Portfolio**: [x-zdos.it](https://x-zdos.it)
+## Stato GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=high-cde&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=it" alt="Statistiche GitHub di high-cde" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=high-cde&theme=transparent&border_radius=10&locale=it" alt="Streak GitHub di high-cde" />
+</p>
+
+## Contatti
+
+| Canale | Riferimento |
+|---|---|
+| Email | Highkali13@proton.me |
+| Sito | [x-zdos.it](https://x-zdos.it) |
+| GitHub | [github.com/high-cde](https://github.com/high-cde) |
 
 ---
-_Ultimo aggiornamento: 20 Maggio 2026_
+
+_Ultimo aggiornamento: 11 giugno 2026._

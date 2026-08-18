@@ -1,54 +1,103 @@
-# high-cde
+![high-cde — ZDOS Systems · Zlang Runtime · Automation Engineering](https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,38:1d4ed8,70:7c3aed,100:10b981&height=220&section=header&text=high-cde&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ZDOS%20Systems%20%C2%B7%20Zlang%20Runtime%20%C2%B7%20Automation%20Engineering&descAlignY=60&descSize=18)
 
-### AI Developer, ZDOS Systems Architect and Automation Builder
+# Ciao, sono **high-cde**
 
-Benvenuto nel mio profilo GitHub. Mi occupo di **intelligenza artificiale applicata**, automazione, architetture modulari, cybersecurity difensiva e sperimentazioni Web3. Il mio lavoro ruota intorno all'ecosistema **ZDOS / Z-GENESIS**, una famiglia di repository progettata per esplorare sistemi digitali componibili, strumenti operativi e infrastrutture intelligenti.
+[![ZDOS](https://img.shields.io/badge/ZDOS-x86__64%20prototype-2563eb?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/high-cde/ZDOS/tree/main/os/x86_64)
+[![Zlang](https://img.shields.io/badge/Zlang-ZLB0%20v1-7c3aed?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/high-cde/Zlang)
+[![QEMU](https://img.shields.io/badge/boot-QEMU%20verified-059669?style=for-the-badge&logo=qemu&logoColor=white)](https://github.com/high-cde/ZDOS/actions)
+[![Automation](https://img.shields.io/badge/focus-automation%20%26%20systems-f59e0b?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/high-cde?tab=repositories)
 
-## Focus tecnico
+> **Costruisco sistemi modulari che si possano leggere, compilare e verificare.** Il focus attuale è trasformare l’ecosistema ZDOS in una catena tecnica concreta: da un programma Zlang, al bytecode, al kernel, fino a un’immagine avviabile in QEMU.
 
-| Area | Cosa costruisco |
+## ⚡ In evidenza: una pipeline che esiste davvero
+
+![Pipeline Zlang → ZDOS](https://raw.githubusercontent.com/high-cde/ZDOS/main/os/x86_64/assets/zdos-zlang-pipeline.png)
+
+| Passaggio | Cosa accade | Evidenza pubblica |
+|---|---|---|
+| 📝 **Zlang** | Un programma `emit <testo>` viene descritto in `.zlang` | [Compilatore ZLB0 v1](https://github.com/high-cde/Zlang/tree/main/tools) |
+| ⚙️ **Bytecode** | `zlangc.py` genera un formato versionato e validabile | [Contratto tecnico](https://github.com/high-cde/Zlang/blob/main/docs/zdos-x86_64-profile.md) |
+| 🧠 **Kernel** | Il bytecode viene incorporato ed eseguito dal kernel bare-metal | [ZDOS x86_64](https://github.com/high-cde/ZDOS/tree/main/os/x86_64) |
+| 💿 **Boot** | GRUB crea l’ISO e QEMU verifica l’output seriale | [Workflow CI](https://github.com/high-cde/ZDOS/actions) |
+
+> **Stato preciso:** si tratta di un prototipo x86_64 avviabile, non ancora di un sistema operativo generale. Processi, filesystem, rete, driver, loader esterno e syscall pubbliche sono tappe future, non promesse già realizzate.
+
+## 🧭 Direzione tecnica
+
+Il mio lavoro unisce progettazione, automazione e validazione. L’idea è semplice: prima un contratto piccolo e verificabile, poi una nuova capacità; mai il contrario.
+
+| Pilastro | Obiettivo | Principio operativo |
+|---|---|---|
+| 🧠 **Sistemi intelligenti** | Orchestrazione, memoria e componenti modulari | Separare il comportamento dal contesto di esecuzione |
+| ⚙️ **Automazione** | CLI, toolchain, wrapper e pipeline ripetibili | Un comando deve produrre un effetto osservabile |
+| 🛡️ **Sicurezza difensiva** | Ambienti controllati, policy e test negativi | Default-deny, minimo privilegio, auditabilità |
+| 💿 **ZDOS / Zlang** | Runtime nativo e sistema bare-metal incrementale | Sorgente → bytecode → kernel → boot → verifica |
+| ☁️ **Web e Cloud** | Dashboard, integrazioni e servizi di supporto | Interfacce chiare, componenti riusabili, documentazione |
+
+## 🧪 Progetti da esplorare
+
+| Repository | Perché è importante |
 |---|---|
-| AI e memoria | Sistemi di memoria, orchestrazione cognitiva e prototipi AGI-oriented. |
-| Automazione | CLI, bot, wrapper e workflow per ambienti Linux, Termux e cloud. |
-| Cybersecurity | Tooling difensivo, documentazione operativa e ambienti di test autorizzati. |
-| Web e Cloud | Dashboard, siti, layer CloudX e integrazioni JavaScript/TypeScript. |
-| Web3 | Sperimentazioni blockchain, wallet, token e bridge modulari. |
+| [**ZDOS**](https://github.com/high-cde/ZDOS) | Monorepo dell’ecosistema; include il prototipo bare-metal x86_64 avviabile in QEMU. |
+| [**Zlang**](https://github.com/high-cde/Zlang) | Linguaggio applicativo e compilatore ZLB0 v1 usato dal prototipo ZDOS. |
+| [**zdos-organism**](https://github.com/high-cde/zdos-organism) | Workspace sperimentale Rust/Python per runtime, VM e componenti osservabili. |
+| [**ZCORE**](https://github.com/high-cde/ZCORE) | Esperimenti sul nucleo e sull’identità del sistema ZDOS. |
+| [**Z-CYBERCORE**](https://github.com/high-cde/Z-CYBERCORE) | Ricerca e tooling per la sicurezza in contesti autorizzati e difensivi. |
+| [**xCLOUD-by-zdos**](https://github.com/high-cde/xCLOUD-by-zdos) | Layer cloud e interfacce enterprise dell’ecosistema. |
 
-## Progetti in evidenza
+## 🧩 Stack e strumenti
 
-| Repository | Ruolo |
+![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Assembly](https://img.shields.io/badge/x86__64-Assembly-6E4C13?style=flat-square&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+## 🎓 Metodo di lavoro
+
+> **Progettare → implementare → testare → documentare → pubblicare.**
+
+Ogni componente dovrebbe dichiarare con chiarezza ciò che funziona, ciò che rifiuta e ciò che è ancora in progetto. Per questo, nei repository ZDOS e Zlang, la documentazione non è un poster: è parte del contratto tecnico.
+
+| Regola | Significato pratico |
 |---|---|
-| [ZDOS-MINI-KALI-AGI-WRAPPER](https://github.com/high-cde/ZDOS-MINI-KALI-AGI-WRAPPER) | Automazione di sicurezza e workflow Kali/Termux assistiti da AI. |
-| [ZDOS](https://github.com/high-cde/ZDOS) | Repository principale per moduli Python e documentazione ZDOS. |
-| [Z-GENESIS-OS](https://github.com/high-cde/Z-GENESIS-OS) | Sistema operativo concettuale modulare orientato a CloudX, ZDOS e Web3. |
-| [Z-GENESIS-CORTEX](https://github.com/high-cde/Z-GENESIS-CORTEX) | Motore cognitivo centrale per orchestrazione e routing dei moduli. |
-| [x-zdos.it](https://github.com/high-cde/x-zdos.it) | Presenza web e hub pubblico dell'ecosistema. |
+| ✅ **Verificabile** | Build, test e output devono poter essere ripetuti da chiunque. |
+| 🔒 **Esplicita** | Le capability di sistema devono essere ristrette e documentate. |
+| 🧱 **Modulare** | Ogni livello ha responsabilità e confini definiti. |
+| 📚 **Educativa** | Il percorso dal concetto alla macchina deve restare leggibile. |
+| 🚀 **Incrementale** | Le promesse future seguono prove concrete, non le anticipano. |
 
-## Stack
+## 📊 Attività GitHub
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,kotlin,java,linux,bash,docker,git,github,nodejs,react,pytorch,tensorflow" alt="Stack tecnico" />
-</p>
+![Statistiche GitHub](https://github-readme-stats.vercel.app/api?username=high-cde&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&locale=it)
 
-## Principi di lavoro
+![Linguaggi principali](https://github-readme-stats.vercel.app/api/top-langs/?username=high-cde&layout=compact&theme=tokyonight&hide_border=true&locale=it)
 
-> Costruisco repository leggibili, modulari e documentati, con attenzione a sicurezza operativa, automazione controllata e riuso dei componenti.
+## 🤝 Contatti e collaborazioni
 
-## Stato GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=high-cde&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=it" alt="Statistiche GitHub di high-cde" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=high-cde&theme=transparent&border_radius=10&locale=it" alt="Streak GitHub di high-cde" />
-</p>
-
-## Contatti
+Se vuoi discutere architetture ZDOS, runtime, toolchain, automazione o sicurezza difensiva in ambienti autorizzati, puoi trovarmi qui:
 
 | Canale | Riferimento |
 |---|---|
-| Email | Highkali13@proton.me |
-| Sito | [x-zdos.it](https://x-zdos.it) |
-| GitHub | [github.com/high-cde](https://github.com/high-cde) |
+| 📧 Email | [Highkali13@proton.me](mailto:Highkali13@proton.me) |
+| 🌐 Web | [x-zdos.it](https://x-zdos.it) |
+| 🐙 GitHub | [github.com/high-cde](https://github.com/high-cde) |
+
+## 📚 Riferimenti
+
+[1] [ZDOS — prototipo x86_64](https://github.com/high-cde/ZDOS/tree/main/os/x86_64)
+[2] [Zlang — profilo ZLB0 v1](https://github.com/high-cde/Zlang/blob/main/docs/zdos-x86_64-profile.md)
+[3] [Laboratorio ZDOS x86_64 + Zlang](https://github.com/high-cde/ZDOS/blob/main/os/x86_64/LEARNING_PATH.md)
+[4] [Validazione continua ZDOS](https://github.com/high-cde/ZDOS/actions)
+[5] [Validazione continua Zlang](https://github.com/high-cde/Zlang/actions)
 
 ---
 
-_Ultimo aggiornamento: 11 giugno 2026._
+**high-cde** · _Build what you can prove._ ✨
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,42:1d4ed8,100:7c3aed&height=120&section=footer)

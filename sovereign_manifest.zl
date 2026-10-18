@@ -1,0 +1,5 @@
+// high-cde - Sovereign ZDOS Enclave
+module high-cde {
+    verify_zero_legacy();
+    connect_dsn_mesh();
+}

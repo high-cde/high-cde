@@ -1,22 +1,20 @@
-# ZDOS Sovereign Ecosystem
+# high-cde
 
-![ZDOS Version](https://img.shields.io/badge/ZDOS-Kernel_Sovereign_v4.2-blue?style=for-the-badge&logo=linux)
-![ZLang Native](https://img.shields.io/badge/Language-ZLang_100%25-orange?style=for-the-badge&logo=codeforces)
-![DSN Security](https://img.shields.io/badge/DSN-Immutable_Ledger-success?style=for-the-badge&logo=shield)
-![Status](https://img.shields.io/badge/Status-Zero_Mock_%7C_Zero_Legacy-critical?style=for-the-badge&logo=fire)
+Repository associato all’ecosistema ZDOS. Contiene documentazione e file sorgente `.zl` relativi al modulo `high-cde`, a una configurazione di mesh e a un manifest.
 
----
+## Contenuti
 
-## Panoramica architetturale
+- [`mesh_route.zl`](mesh_route.zl) dichiara un nodo `high-cde`, un protocollo di routing e un valore di cifratura.
+- [`sovereign_manifest.zl`](sovereign_manifest.zl) definisce il modulo `high-cde` e richiama `verify_zero_legacy()` e `connect_dsn_mesh()`.
+- [`zlang_core/high-cde_engine.zl`](zlang_core/high-cde_engine.zl) definisce `execute_native_workflow()`, che richiama funzioni indicate come appartenenti a `zdos.kernel` e `zdos.dsn_ledger`.
+- [`docs/wiki/`](docs/wiki/) raccoglie pagine su architettura, operazioni e roadmap.
 
-Componente ufficiale, nativo e autonomo dell’ecosistema **ZDOS**, progettato per operare in ambienti bare-metal e cloud distribuiti. Questo modulo elimina le dipendenze da librerie di terze parti e le simulazioni legacy, adottando un approccio *strict-sovereign* basato su **ZLang** e sulla Data Sovereignty Network (**DSN**).
+Queste descrizioni riportano ciò che è dichiarato nei file; da sole non attestano che le funzioni, le dipendenze o i protocolli siano implementati o verificati in un ambiente eseguibile.
 
-### Specifiche tecniche
+## Installazione, esecuzione e test
 
-- **Esecuzione bare-metal:** ottimizzato per l’efficienza delle risorse hardware.
-- **Integrazione DSN:** sincronizzazione crittografica con i registri immutabili.
-- **Politica zero legacy:** nessun mock, framework esterno o componente non verificato.
+Il repository non documenta una toolchain, dipendenze, comandi di installazione o avvio, né procedure o test automatizzati. Non è quindi possibile indicare comandi verificati per compilare, eseguire o testare i file `.zl`.
 
----
+## Licenza
 
-*Distribuito sotto licenza sovrana ZDOS. Tutti i diritti riservati.*
+Il repository contiene un file [`LICENSE`](LICENSE) con i termini applicabili. Consultalo prima di usare, modificare o ridistribuire i contenuti.
